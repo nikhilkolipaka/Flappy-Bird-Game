@@ -30,10 +30,10 @@ def Main_Game():
     playerx         = screen_width*0.05
     playery         = screen_height*0.3
     y1              = screen_height*0.1
-    PipeVel         = -4 # velocity of pipe
-    playervel       = -9 # velocity of bird while falpping 
-    playermaxvel    = 10 # maximium velocity of bird while falpping
-    playerminvel    = -8 # minimium velocity of bird while falpping
+    PipeVel         = -4 # velocity of pipe moving left
+    playervel       = -9 # velocity of bird while flapping 
+    playermaxvel    = 10 # maximium velocity of bird while flapping
+    playerminvel    = -8 # minimium velocity of bird while flapping
     playerAcc       = 0.8 # velocity of bird falling down (or) Acceleration due to gravity
     playerflapped   = False # True only when bird is flapping
     pipe_height     = game_images['pipe'][0].get_height()
